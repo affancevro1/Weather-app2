@@ -5,7 +5,7 @@ let weather = {
         .then(res => res.json())
         .then((data) => this.displayWeather(data));
     },
-
+//komentar
     displayWeather: function(data){
         const {name} = data;
         const {icon, description} = data.weather[0];
